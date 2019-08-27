@@ -1,44 +1,77 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>KEMAL DRUM APP</title>
-</head>
-<body>
-    <div class="app">
-        <header>
-            <h1>tapEffects</h1>            
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>tapEffects</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="animasyon ekran" style="background-color: whitesmoke"></div>
+      
+      <div class="box u1" style="background-color: red">
+        <audio class="sound" src="sounds/Basic_Rock_Crash_135.wav"></audio>
+        <div class="shape"><img class="resim" src="img/horse.png" alt=""></div>
+      </div>
+      <div class="box u2" style="background-color: blue">
+        <audio class="sound" src="sounds/RatAtat_155.wav"></audio>
+        <div class="shape"><img class="resim" src="img/banana.png" alt=""></div>
+      </div>
+      <div class="box u3" style="background-color: orange">
+        <audio class="sound" src="sounds/Tamba_112.wav"></audio>
+        <div class="shape"><img class="resim" src="img/hippo.png" alt=""></div>
+      </div>
+      <div class="box u4" style="background-color: brown">
+        <audio class="sound" src="sounds/bubbles.mp3"></audio>
+        <img class="resim" src="img/ball.png" alt="">
+    </div>      
 
-        <div class="visual"></div>
-        <div class="pads">
-
-            <div class="pad1">
-                <audio class="sound" src="./sounds/Basic_Rock_135.wav"></audio>
-            </div>
-            <div class="pad2">
-                <audio class="sound" src="./sounds/RatAtat_155.wav"></audio>
-            </div>
-            <div class="pad3">
-                <audio class="sound" src="./sounds/Basic_Rock_Crash_135.wav"></audio>
-            </div>
-            <div class="pad4">
-                <audio class="sound" src="./sounds/first_beat.wav"></audio>
-            </div>
-            <div class="pad5">
-                <audio class="sound" src="./sounds/Tamba_112.wav"></audio>
-            </div>
-            <div class="pad6">
-                <audio class="sound" src="./sounds/ufo.mp3"></audio>
-            </div>
-            
+      <div class="box ou1" style="background-color: green">
+        <audio class="sound" src="sounds/clay.mp3"></audio>        
+        <div class="shape"><img class="resim" src="img/frog.png" alt="">
         </div>
+      </div>
+    
+
+      <div class="box ou2" style="background-color: yellow">
+        <audio class="sound" src="sounds/confetti.mp3"></audio>
+        <div class="shape"><img class="resim" src="img/elephant.png" alt=""></div>
+      </div>
+
+      <div class="box oa1" style="background-color: navy">
+        <audio class="sound" src="sounds/Basic_Rock_135.wav"></audio>
+        <div class="shape"><img class="resim" src="img/duck.png" alt=""></div>
+      </div>
+
+      <div class="box oa2" style="background-color: aquamarine">
+        <audio class="sound" src="sounds/first_beat.wav"></audio>
+        <div class="shape"><img class="resim" src="img/cow.png" alt=""></div>
+      </div>
+      <div class="box a1" style="background-color: firebrick">
+        <audio class="sound" src="sounds/glimmer.mp3"></audio>
+        <div class="shape"><img class="resim" src="img/chicken.png" alt=""></div>
+      </div>
+      <div class="box a2" style="background-color: goldenrod">
+        <audio class="sound" src="sounds/Basic_Rock_135.wav"></audio>
+        <div class="shape"><img class="resim" src="img/cat.png" alt=""></div>
+      </div>
+      <div class="box a3" style="background-color: blue">
+        <audio class="sound" src="sounds/moon.mp3"></audio>
+        <div class="shape"><img class="resim" src="img/bird.png" alt=""></div>
+      </div>
+      <div class="box a4" style="background-color: cornflowerblue">
+        <audio class="sound" src="sounds/ufo.mp3"></audio>
+        <div class="shape"><img class="resim" src="img/bart.png" alt=""></div>
+      </div>
     </div>
 
-
-    <script src="script.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
