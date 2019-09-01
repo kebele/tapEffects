@@ -5,10 +5,19 @@ h1 {
     text-align: center;
 }
 
+.box{
+	text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center	
+}
+
 .animasyon, img {
     
     margin: auto;
- 
+	max-width : 100%;
+	height: auto;
+	display: block;
 }
 
 .grid-container {
